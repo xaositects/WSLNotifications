@@ -13,3 +13,16 @@ Make sure the path to the alert file alert.ps1 is the Windows path, not the /mnt
 
 Replace "this is a message" with your message. 
 
+I've included a bash script to call this. Make sure to edit the script path in the bash file and chmod the bash script to 700.
+
+I personally like to create a directory called "bin" in my home dir in WSL, and edit .bashrc to include
+
+export PATH=$PATH:~/bin
+
+on the last line so you can execute scripts in your bin dir from the CLI.
+
+In this case, you'd execute
+
+send-message "some message here"
+
+from within WSL to send a message to the windows notifications.
