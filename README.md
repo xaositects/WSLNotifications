@@ -14,7 +14,7 @@ From within WSL (I'm using Ubuntu 1804 here)
 - Replace "this is a message" with your message. 
 
 
-I've included a bash script to call this. Make sure to edit the script path in the bash file and chmod the bash script to 700.
+I've included a bash script ```send-message``` to call this. Make sure to edit the script path in the bash file and chmod the bash script to 700.
 
 I personally like to create a directory called "bin" in my home dir in WSL, and edit .bashrc to include
 
