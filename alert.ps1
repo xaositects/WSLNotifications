@@ -100,4 +100,4 @@ Function Invoke-BalloonTip {
 }
 
 Invoke-BalloonTip -Message $msg -Title 'Attention!' -MessageType  Info -Duration 5000 -SysTrayIconPath "C:\Program Files\WindowsApps\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png"
-$global:balloon.dispose()
+#$global:balloon.dispose()
