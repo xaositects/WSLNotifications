@@ -1,0 +1,4 @@
+#!/bin/sh
+MSG=$1
+
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "c:\users\tom\OneDrive\Documents\PowerShellScripts\alert.ps1" -msg $MSG
