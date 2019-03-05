@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 MSG=$1
 
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\PATH_TO_PS_SCRIPT\alert.ps1" -msg "${MSG}"
